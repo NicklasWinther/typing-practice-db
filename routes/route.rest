@@ -1,0 +1,11 @@
+GET http://localhost:3001/highscores/getHighscores
+
+###
+
+POST http://localhost:3001/highscores/addHighscore
+Content-Type: application/json
+
+{
+    "name":"Mathias",
+    "score":1
+}
